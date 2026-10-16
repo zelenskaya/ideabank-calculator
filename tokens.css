@@ -1,0 +1,64 @@
+/* tokens.css */
+
+:root {
+  /* ---------- Color: primitives ---------- */
+  --blue-700: #127AB0;
+  --blue-500: #1A91D0;
+  --blue-100: #CDDCF3;
+  --grey-900: #353535;
+  --grey-500: #737373;
+  --slate-300: #7F92AB;
+  --white: #FFFFFF;
+  --red-500: #D70909;
+
+  /* ---------- Color: semantic ---------- */
+  --color-bg-action: var(--blue-500);
+  --color-bg-action-hover: var(--blue-700);
+  --color-bg-surface: var(--white);
+
+  --color-text-primary: var(--grey-900);
+  --color-text-secondary: var(--grey-500);
+  --color-text-on-action: var(--white);
+  --color-text-error: var(--red-500);
+
+  --color-border-default: var(--slate-300);
+  --color-border-focus: var(--blue-500);
+  --color-border-error: var(--red-500);
+
+  --color-icon-action: var(--blue-500);
+  --color-slider-fill: var(--blue-500);   /* fill + thumb */
+  --color-slider-track: var(--blue-100);  /* empty part of the track */
+  --color-divider: var(--blue-100);
+
+  /* ---------- Type: primitives ---------- */
+  --font-family: "Montserrat", sans-serif;
+
+  --font-size-xs: 12px;
+  --font-size-s: 18px;
+  --font-size-m: 20px;
+  --font-size-l: 24px;
+  --font-size-xl: 32px;
+
+  --line-height-xs: 18px;
+  --line-height-s: 24px;
+  --line-height-m: 24px;
+  --line-height-l: 28px;
+  --line-height-xl: 36px;
+
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+
+  /* ---------- Spacing: primitives ---------- */
+  --space-8: 8px;
+  --space-16: 16px;
+  --space-24: 24px;
+  --space-32: 32px;
+  --space-48: 48px;
+
+  /* ---------- Spacing: semantic ---------- */
+  --space-inset-card: var(--space-48);
+  --space-stack-section: var(--space-24);
+  --space-stack-field: var(--space-24);
+  --space-stack-label: var(--space-8);
+}
