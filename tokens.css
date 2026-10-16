@@ -61,4 +61,19 @@
   --space-stack-section: var(--space-24);
   --space-stack-field: var(--space-24);
   --space-stack-label: var(--space-8);
+
+    /* ---------- Radius (placeholder) ---------- */
+  --radius-12: 12px;
+  --radius-card: var(--radius-12);
+  --radius-input: var(--radius-12);
+  --radius-button: var(--radius-12);
+
+  /* ---------- Shadow (placeholder) ---------- */
+  --shadow-card: 0 8px 24px color-mix(in srgb, var(--grey-900) 12%, transparent);
+
+  /* Two-layer alternative, to compare in the browser:
+  --shadow-card:
+    0 1px 3px color-mix(in srgb, var(--grey-900) 10%, transparent),
+    0 12px 32px color-mix(in srgb, var(--grey-900) 8%, transparent);
+  */
 }
